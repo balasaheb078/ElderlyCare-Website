@@ -190,7 +190,8 @@ body{
 	flex-direction: column;
 	justify-content: space-between;
   padding: 0px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background-image: url("back.jpg");
+	background-attachment: fixed;
 
 }
 /*  */
