@@ -38,7 +38,7 @@ nav ul li a{
   letter-spacing: 1px;
   transition: all 0.3s ease;
 }
-nav ul li a.active,
+nav ul li a:active,
 nav ul li a:hover{
   color: #111;
   background: #fac131;
@@ -200,6 +200,9 @@ h2, h3 {
   }
 /* footer */
 footer {
+	 position: fixed;
+  	left: 0;
+  	bottom: 0;
 	background-color: #ddd;
 	padding: 20px;
 	text-align: center;
